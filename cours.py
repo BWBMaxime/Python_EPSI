@@ -90,3 +90,11 @@ for x in 'Maxime':
 
 # monObjet = maClass()
 # print(bool(monObjet))
+# choisisTonMot = input('Choisis ton salut : ')
+# txt = '{} tout le monde.'
+# print(txt.format(choisisTonMot))
+
+
+# list = ['Pierre', 'Julien', 'Anne', 'Marie', 'Lucien']
+# list.sort()
+# print(list)
