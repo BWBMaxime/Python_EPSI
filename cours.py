@@ -82,3 +82,11 @@ from math import factorial
 
 for x in 'Maxime':
     print(x)
+
+# Décla de class
+# class maClass():
+#     def __len__(self):
+#         return 0
+
+# monObjet = maClass()
+# print(bool(monObjet))

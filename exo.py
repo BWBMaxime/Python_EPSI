@@ -1,10 +1,15 @@
-prenom = "Pierre"
-age = 20
-isMajeur = True
-compte_en_banque = 20135.384
+prenom = str("Pierre")
+age = int(20)
+isMajeur = bool(False)
+compte_en_banque = float(20135.384)
 amis = ['Marie', 'Julien','Adrien']
-parent = ('Marc','Caroline')
-variableWord = 'ami'
+parents = ["Marc","Caroline"]
+mere = parents[1]
+pere = parents[0]
+variableWord = str('ami.')
+nbAmis= int(len(amis))
+
+presentation = str('{} agé de {} ans. Déclaré {} possède {} $. Ayant {} {} Et comme père {} et mère {}.')
 
 if isMajeur == True:
     isMajeur = str('majeur')
@@ -12,9 +17,15 @@ if isMajeur == True:
 else : 
     isMajeur = str('mineur')
 
-if len(amis) > 1 :
-    variableWord = 'amis'
+if nbAmis > 1 :
+    variableWord = str('amis.')
 
-print(isinstance(prenom,str))
+# print(isinstance(prenom,str))
 
-print(prenom,' agé de ',age,' ans. Déclaré ', isMajeur, ' possède ', compte_en_banque , '$. Ayant', len(amis) , 'amis.')
+#print(prenom,' agé de ',age,' ans. Déclaré ', isMajeur, ' possède ', compte_en_banque , '$. Ayant', nbAmis , variableWord)
+print(presentation.format(prenom,age,isMajeur,compte_en_banque,nbAmis,variableWord,pere,mere))
+# yourName = input('Enter your name !')
+
+# print('Ton nom est', yourName,'.')
+
+
