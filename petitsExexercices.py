@@ -36,3 +36,10 @@ def createList(n):
 
 print(createList(numberChoice)) 
 # --------------------------------------------------------------------------------
+def maFonct(n) :
+  return abs(n-50)
+
+number = [100, 52, 88,27,50,788]
+number.sort(key = maFonct)
+print(number)
+# --------------------------------------------------------------------------------
