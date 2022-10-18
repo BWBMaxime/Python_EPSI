@@ -80,9 +80,6 @@ from math import factorial
 
 #boucle for
 
-for x in 'Maxime':
-    print(x)
-
 # Décla de class
 # class maClass():
 #     def __len__(self):
@@ -98,3 +95,4 @@ for x in 'Maxime':
 # list = ['Pierre', 'Julien', 'Anne', 'Marie', 'Lucien']
 # list.sort()
 # print(list)
+

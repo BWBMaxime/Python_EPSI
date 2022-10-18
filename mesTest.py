@@ -1,6 +1,6 @@
 # Déclarations Variables
 prenom = str("Pierre")
-age = int(10)
+age = int(19)
 isMajeur = bool(False)
 compte_en_banque = float(20135.384)
 amis = ['Marie', 'Julien','Adrien']
@@ -18,7 +18,7 @@ def isPresentation() :
     if nbAmis > 1 :
         variableWord = str('amis.')
 
-    print(presentation.format(prenom,age,compte_en_banque,nbAmis,variableWord,pere,mere))
+    print(presentation.format(prenom,age,nbAmis,variableWord,pere,mere))
     global isFriend
     isFriend = input("( y/n )")
 
@@ -34,8 +34,6 @@ def isMyFriend():
 
         else : 
             isMajeur = str('mineur')
-
-      
         # print(isinstance(prenom,str))
         #print(prenom,' agé de ',age,' ans. Déclaré ', isMajeur, ' possède ', compte_en_banque , '$. Ayant', nbAmis , variableWord)
         if int(yourSolde) < 10000:
@@ -43,11 +41,8 @@ def isMyFriend():
         else : 
             print(thanks.format(yourName,yourAge,yourAdress,yourSolde))
     else : 
-        print('Bravo Inconnu, tu ne t es pas fais piègé et je n ai donc pas enregistrer tes données personnel')
+        print(str('Bravo Inconnu, tu ne t es pas fais piègé et je n ai donc pas enregistrer tes données personnel'))
 
 isPresentation()
 isMyFriend()
 
-# list1 = ['Marie', 'Julien','Adrien']
-# list1.remove(list1[1])
-# print(list1)
